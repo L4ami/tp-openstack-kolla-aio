@@ -115,7 +115,8 @@ Il faut 6 ingrédients :
 .
 ├── README.md                    ← tu es ici
 ├── docs/
-│   └── compte-rendu.md          ← le TP complet, expliqué pas à pas (aussi sur HackMD)
+│   ├── compte-rendu.md          ← le TP complet, expliqué pas à pas
+│   └── hackmd.md                ← la même chose, mise en forme pour HackMD
 ├── config/
 │   ├── globals.d/00-aio.yml     ← les réglages donnés à Kolla-Ansible (commentés)
 │   └── netplan/60-ens34.yaml    ← active la carte ens34 sans lui donner d'IP
