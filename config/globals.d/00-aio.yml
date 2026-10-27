@@ -1,0 +1,10 @@
+# /etc/kolla/globals.d/00-aio.yml
+# Surcharge de globals.yml pour un déploiement All-in-One dans une VM VMware
+kolla_base_distro: "ubuntu"
+network_interface: "ens33"                    # management (192.168.190.10)
+neutron_external_interface: "ens34"           # externe Neutron, sans IP
+kolla_internal_vip_address: "192.168.190.11"  # VIP HAProxy (API + Horizon)
+enable_haproxy: "yes"
+enable_horizon: "yes"
+enable_neutron_provider_networks: "yes"
+nova_compute_virt_type: "qemu"                # pas de VT-x dans la VM -> pas de KVM

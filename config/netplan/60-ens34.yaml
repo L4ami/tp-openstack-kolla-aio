@@ -1,0 +1,9 @@
+# /etc/netplan/60-ens34.yaml
+# Interface externe Neutron : active mais sans adresse IP
+network:
+  version: 2
+  ethernets:
+    ens34:
+      dhcp4: false
+      dhcp6: false
+      optional: true   # évite l'attente de 2 min de systemd-networkd-wait-online au boot

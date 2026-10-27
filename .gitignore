@@ -1,0 +1,36 @@
+# ===== Secrets OpenStack / Kolla : NE JAMAIS PUBLIER =====
+passwords.yml
+**/passwords.yml
+admin-openrc.sh
+*-openrc.sh
+*openrc*
+clouds.yaml
+**/certificates/
+
+# ===== Clés SSH privées =====
+openstack_key
+id_rsa
+id_ed25519
+id_ecdsa
+*.pem
+*.key
+!*.pub
+
+# ===== Divers =====
+.env
+*.img
+*.qcow2
+*.iso
+kolla-venv/
+__pycache__/
+.DS_Store
+Thumbs.db
+
+# ===== Règles de sécurité générales =====
+.env.*
+!.env.example
+*.pfx
+*.p12
+id_rsa*
+id_ed25519*
+*.kdbx
