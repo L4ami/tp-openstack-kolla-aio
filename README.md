@@ -206,4 +206,4 @@ Aucune capture d'écran ne montre de mot de passe.
 
 ---
 
-**Auteur :** Lami ([@L4ami](https://github.com/L4ami)) · Octobre 2026
+**Auteur :** Paul Giocanti ([@L4ami](https://github.com/L4ami)) · Octobre 2026
