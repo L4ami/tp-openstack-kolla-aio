@@ -206,4 +206,5 @@ Aucune capture d'écran ne montre de mot de passe.
 
 ---
 
-**Auteur :** Paul Giocanti ([@L4ami](https://github.com/L4ami)) · Octobre 2026
+**Auteur :** Paul Giocanti ([@L4ami](https://github.com/L4ami)) · Octobre 2026<br>
+CFC d'informaticien + Bachelor (double certification) · Geneva Institute of Technology
