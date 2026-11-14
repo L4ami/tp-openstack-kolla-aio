@@ -8,7 +8,8 @@
 
 > **En une phrase :** j'ai transformé une machine virtuelle Ubuntu en un **petit cloud privé** (un mini « Amazon Web Services » perso). J'ai ensuite créé dans ce cloud une VM, joignable depuis mon PC Windows.
 
-Ce dépôt est écrit pour être compris **même sans rien connaître** à OpenStack. Tous les mots techniques sont expliqués. 👉 Le compte-rendu complet, étape par étape, avec toutes les captures, est dans [`docs/compte-rendu.md`](docs/compte-rendu.md).
+Ce dépôt est écrit pour être compris **même sans rien connaître** à OpenStack. Tous les mots techniques sont expliqués.<br>
+👉 Le compte-rendu complet, étape par étape, avec toutes les captures, est dans [`docs/compte-rendu.md`](docs/compte-rendu.md).
 
 > Projet réalisé pendant la semaine de formation **Virtualisation**, après le TP VMware ESXi.
 
